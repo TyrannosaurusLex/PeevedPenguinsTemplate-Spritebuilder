@@ -13,7 +13,6 @@
     self = [super init];
     
     if (self) {
-        NSLog(@"Seal created");
         CCLOG(@"Seal created");
     }
     

@@ -13,7 +13,6 @@
     self = [super init];
     
     if (self) {
-        NSLog(@"Penguin created");
         CCLOG(@"Penguin created");
     }
     
