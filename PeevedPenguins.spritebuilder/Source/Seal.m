@@ -12,7 +12,7 @@
 -(id)init {
     self = [super init];
     if (self){
-        CCLOG(@"Penguin created");
+        CCLOG(@"Seal created");
     }
     return self;
 }
