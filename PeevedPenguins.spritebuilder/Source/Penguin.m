@@ -13,7 +13,7 @@
     self = [super init];
     
     if (self) {
-        CCLOG(@"Seal created");
+        CCLOG(@"Penguin created");
     }
     
     return self;
