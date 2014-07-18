@@ -23,7 +23,7 @@
 
 -(void) launchPenguin{
     //loads the Penguin.ccb we have set up in Spritebuilder
-    CCNOde* penguin = [CCBReader load:@"Penguin"];
+    CCNode* penguin = [CCBReader load:@"Penguin"];
     //position the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16,50));
     
