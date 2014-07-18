@@ -14,7 +14,7 @@
 //is called when CCB file has completed loading
 -(void)didLoadFromCCB{
     //tells this scene to accept touches
-    self.userInteractionEnabled = TRUE:
+    self.userInteractionEnabled = TRUE;
 }
 //called on every touch in this scene
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
@@ -23,7 +23,7 @@
 
 -(void) launchPenguin{
     //loads the Penguin.ccb we have set up in Spritebuilder
-    CCNOde* penguin = [CCBreader load:@"Penguin"];
+    CCNOde* penguin = [CCBReader load:@"Penguin"];
     //position the penguin at the bowl of the catapult
     penguin.position = ccpAdd(_catapultArm.position, ccp(16,50));
     
