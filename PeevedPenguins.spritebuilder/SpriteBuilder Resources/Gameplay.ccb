@@ -142,7 +142,7 @@
 				<key>memberVarAssignmentName</key>
 				<string>_catapultArm</string>
 				<key>memberVarAssignmentType</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -216,8 +216,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -474,7 +472,7 @@
 				<key>memberVarAssignmentName</key>
 				<string>_physicsNode</string>
 				<key>memberVarAssignmentType</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -556,6 +554,8 @@
 						<real>0.5</real>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
