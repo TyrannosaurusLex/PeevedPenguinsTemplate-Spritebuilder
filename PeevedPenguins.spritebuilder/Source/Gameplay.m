@@ -46,4 +46,8 @@
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary: self.boundingBox];
     [self runAction:follow];
 }
+-(void)retry{
+    //reload this level
+    [[CCdirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
+}
 @end
