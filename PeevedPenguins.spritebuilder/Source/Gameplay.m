@@ -18,13 +18,14 @@
 //is called when CCB file has completed loading
 -(void)didLoadFromCCB{
     printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]\n",_physicsNode,_catapultArm);
+    //visualize phsyics bodies & joints
+    _physicsNode.debugDraw = TRUE;
+
     //tells this scene to accept touches
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
-    //visualize phsyics bodies & joints
-    _physicsNode.debugDraw = TRUE;
-}
+   }
 //called on every touch in this scene
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
     [self launchPenguin];
