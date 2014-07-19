@@ -19,7 +19,7 @@
 -(void)didLoadFromCCB{
     printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]\n",_physicsNode,_catapultArm);
     //visualize phsyics bodies & joints
-    _physicsNode.debugDraw = TRUE;
+   // _physicsNode.debugDraw = TRUE;
 
     //tells this scene to accept touches
     self.userInteractionEnabled = TRUE;
