@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>15</integer>
+	<integer>16</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -68,7 +68,7 @@
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
-					<integer>5</integer>
+					<integer>15</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>11.50042724609375</real>
-						<real>7.9898681640625</real>
+						<real>12.38671875</real>
+						<real>8.03125</real>
 					</array>
 				</dict>
 				<dict>
@@ -139,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -254,41 +256,7 @@
 						<array>
 							<dict>
 								<key>UUID</key>
-								<integer>5</integer>
-								<key>animatedProperties</key>
-								<dict>
-									<key>0</key>
-									<dict>
-										<key>scale</key>
-										<dict>
-											<key>keyframes</key>
-											<array>
-												<dict>
-													<key>easing</key>
-													<dict>
-														<key>type</key>
-														<integer>1</integer>
-													</dict>
-													<key>name</key>
-													<string>scale</string>
-													<key>time</key>
-													<real>5.5999999046325684</real>
-													<key>type</key>
-													<integer>4</integer>
-													<key>value</key>
-													<array>
-														<real>1</real>
-														<real>1</real>
-													</array>
-												</dict>
-											</array>
-											<key>name</key>
-											<string>scale</string>
-											<key>type</key>
-											<integer>4</integer>
-										</dict>
-									</dict>
-								</dict>
+								<integer>15</integer>
 								<key>baseClass</key>
 								<string>CCSprite</string>
 								<key>children</key>
@@ -320,7 +288,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<false/>
+									<true/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -383,8 +351,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>253.88629150390625</real>
-											<real>183.0413818359375</real>
+											<real>253</real>
+											<real>183</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -402,11 +370,6 @@
 										</array>
 									</dict>
 									<dict>
-										<key>baseValue</key>
-										<array>
-											<real>1</real>
-											<real>1</real>
-										</array>
 										<key>name</key>
 										<string>scale</string>
 										<key>type</key>
@@ -444,8 +407,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -481,7 +442,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<false/>
+									<true/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
