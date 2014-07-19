@@ -9,7 +9,7 @@
 #import "Gameplay.h"
 
 @implementation Gameplay
-    CCPhysicsNode *_physicsNode;
+//    CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
 //is called when CCB file has completed loading
 -(void)didLoadFromCCB{
