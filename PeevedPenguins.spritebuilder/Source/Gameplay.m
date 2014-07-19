@@ -18,7 +18,7 @@
     printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]\n",_physicsNode,_catapultArm);
     //tells this scene to accept touches
     self.userInteractionEnabled = TRUE;
-    CCScene *level = [CCBReader loadasScene:@"Levels/Level1"];
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
 }
 //called on every touch in this scene
