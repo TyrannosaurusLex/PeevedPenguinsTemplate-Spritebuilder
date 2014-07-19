@@ -13,7 +13,7 @@
     CCNode *_catapultArm;
 //is called when CCB file has completed loading
 -(void)didLoadFromCCB{
-    printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]",_physicsNode,_catapultArm);
+    printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]\n",_physicsNode,_catapultArm);
     //tells this scene to accept touches
     self.userInteractionEnabled = TRUE;
 }

@@ -9,5 +9,6 @@
 #import "CCNode.h"
 
 @interface Gameplay : CCNode
+@property (nonatomic, assign) CCPhysicsBody *_physicsNode;
 
 @end
