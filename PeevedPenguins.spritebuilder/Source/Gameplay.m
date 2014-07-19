@@ -8,9 +8,10 @@
 
 #import "Gameplay.h"
 
-@implementation Gameplay
+@implementation Gameplay{
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
+}
 //is called when CCB file has completed loading
 -(void)didLoadFromCCB{
     printf("physicsNode pointer = [%p],  catapultArm pointer = [%p]\n",_physicsNode,_catapultArm);
