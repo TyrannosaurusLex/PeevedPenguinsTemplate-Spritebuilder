@@ -488,7 +488,7 @@ void
 cpBodySetPositionUpdateFunc(cpBody *body, cpBodyPositionFunc positionFunc)
 {
 	body->position_func = positionFunc;
-}
+}   
 
 void
 cpBodyUpdateVelocity(cpBody *body, cpVect gravity, cpFloat damping, cpFloat dt)
