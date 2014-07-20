@@ -39,7 +39,7 @@
     // start catapult dragging when a touch inside of the catapult arm occurs
     if (CGRectContainsPoint([_catapultArm boundingBox], touchLocation))
     {
-        printf("condition completed");
+        printf("*****************condition completed *****************\n");
         // move the mouseJointNode to the touch position
         _mouseJointNode.position = touchLocation;
         
