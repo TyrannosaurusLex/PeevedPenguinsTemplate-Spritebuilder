@@ -264,9 +264,11 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>500</real>
+					<real>50</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -602,7 +604,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -1218,8 +1220,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
