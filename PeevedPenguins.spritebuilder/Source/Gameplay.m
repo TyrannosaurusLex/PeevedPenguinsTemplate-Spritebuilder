@@ -95,7 +95,7 @@
         //after snapping rotation is fine
         _currentPenguin.physicsBody.allowsRotation = TRUE;
         //follow the flying penguin
-        CCActionFollow *follow = [CCAction actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
+        CCActionFollow *follow =[CCActionFollow actionWithTarget:_currentPenguin worldBoundary:self.boundingBox];
     }
 }
 -(void) launchPenguin{
