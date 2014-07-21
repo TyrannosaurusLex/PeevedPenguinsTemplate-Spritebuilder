@@ -64,6 +64,14 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>bodyA</string>
+					<key>type</key>
+					<string>NodeReference</string>
+					<key>value</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>bodyB</string>
 					<key>type</key>
 					<string>NodeReference</string>
@@ -85,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>0.0</real>
-						<real>0.0</real>
+						<real>12.38671875</real>
+						<real>8.03125</real>
 					</array>
 				</dict>
 				<dict>
@@ -173,6 +181,14 @@
 				</dict>
 				<dict>
 					<key>name</key>
+					<string>bodyB</string>
+					<key>type</key>
+					<string>NodeReference</string>
+					<key>value</key>
+					<integer>15</integer>
+				</dict>
+				<dict>
+					<key>name</key>
 					<string>collideBodies</string>
 					<key>type</key>
 					<string>Check</string>
@@ -248,9 +264,11 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>50</real>
+					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -410,32 +428,32 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>177</real>
+											<real>1.22509765625</real>
+											<real>146.14453125</real>
 										</array>
 										<array>
 											<real>42</real>
 											<real>177</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>0.0</real>
+											<real>20.35009765625</real>
+											<real>3.65625</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>42</real>
-												<real>0.0</real>
+												<real>20.35009765625</real>
+												<real>3.65625</real>
 											</array>
 											<array>
 												<real>42</real>
 												<real>177</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>177</real>
+												<real>1.22509765625</real>
+												<real>146.14453125</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -517,8 +535,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
