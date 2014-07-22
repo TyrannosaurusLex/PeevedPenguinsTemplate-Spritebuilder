@@ -109,7 +109,10 @@
             [self sealRemoved:nodeA];
         }key:nodeA];
     }
+}- (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
 }
+
 -(void) launchPenguin{
     printf("launchPenguin called \n");
     

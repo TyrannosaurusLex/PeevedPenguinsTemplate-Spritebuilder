@@ -9,6 +9,4 @@
 #import "CCSprite.h"
 
 @interface Seal : CCSprite
-
-- (void)sealRemoved:(CCNode *)seal;
 @end
