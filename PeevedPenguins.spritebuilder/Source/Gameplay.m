@@ -112,7 +112,7 @@
 }
 - (void)sealRemoved:(CCNode *)seal {
     //load the particle effect
-    CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load@:"SealExplosion"];
+    CCParticleSystem *explosion = (CCParticleSystem *) [CCBReader load:@"SealExplosion"];
     //make the particle effect clean itself up, once it is complete
     explosion.autoRemoveOnFinish = TRUE;
     // place the particle effect on the seals position
