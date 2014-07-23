@@ -82,7 +82,7 @@ static const float MIN_SPEED = 5.f;
         // transform the world position to the node space to which the penguin will be added (_physicsNode)
         _currentPenguin.position = [_physicsNode convertToNodeSpace:penguinPosition];
         //add it to the physics world
-        [_physicsNode addChild:_currentPenguin];
+        [_physicsNode addChild:_currentPenguin]; 
         //we don't want the penguin to rotate in the scoop
         _currentPenguin.physicsBody.allowsRotation = FALSE;
         
